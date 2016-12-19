@@ -1,11 +1,12 @@
+package mainPackage;
 
 
 public class MotionEquationsSolver {
 
 	public static double calculateTimeVoVA(double initialVelocity, double velocity, 
 			double acceleration){
-		double time = (velocity - initialVelocity) / acceleration;
-		return time;
+		
+		return (velocity - initialVelocity) / acceleration;
 	}
 
 	public static double calculateTimeVoAXoX(double initialVelocity, double acceleration, 
